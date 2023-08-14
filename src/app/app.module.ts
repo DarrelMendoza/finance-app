@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { ExpenseTrackerComponent } from './expense-tracker/expense-tracker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidenavComponent
+    SidenavComponent,
+    ExpenseTrackerComponent
   ],
   imports: [
     BrowserModule
